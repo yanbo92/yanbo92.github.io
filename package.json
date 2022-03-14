@@ -14,7 +14,7 @@
   "dependencies": {
     "axios": "^0.21.4",
     "body-parser": "^1.19.0",
-    "debug": "^2.6.9",
+    "debug": "^4.3.3",
     "formidable": "^1.2.2",
     "hexo": "^5.0.0",
     "hexo-admin": "^2.3.0",
