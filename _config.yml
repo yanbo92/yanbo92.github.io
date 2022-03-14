@@ -146,7 +146,6 @@ backup:
   type: git
   repository:
         github: git@github.com:yanbo92/yanbo92.github.io.git,hexo
-        gitee: git@gitee.com:yanbo92/yanbo92.git,hexo
 
 # live2d
 live2d:
