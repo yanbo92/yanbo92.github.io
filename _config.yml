@@ -138,14 +138,14 @@ theme: next
 deploy:
   type: git
   repo: 
-        github: git@github.com:yanbo92/yanbo92.github.io.git
+        github: git@github.com:yanbo92/yanbo92.github.io.git,blog
         gitee: git@gitee.com:yanbo92/yanbo92.git
-  branch: master 
+  branch: master
 
 backup:
   type: git
   repository:
-        github: git@github.com:yanbo92/yanbo92.github.io.git,hexo
+        github: git@github.com:yanbo92/yanbo92.github.io.git,master
 
 # live2d
 live2d:
