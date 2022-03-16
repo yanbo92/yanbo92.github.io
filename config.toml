@@ -105,8 +105,14 @@ url = "/tags/"
 weight = 20
 
 [[menu.main]]
+identifier = "search"
+name = "搜索"
+url = "/search/"
+weight = 30
+
+[[menu.main]]
 identifier = "github"
 name = "Github"
 url = "https://github.com/yanbo92"
-weight = 30
+weight = 40
 
