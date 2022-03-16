@@ -1,6 +1,6 @@
 ---
 title: 重签名解决光环助手频繁掉签问题
-date: 2022-2-11 23:25
+date: 2022-2-11
 tags:
 - github
 - yololib
