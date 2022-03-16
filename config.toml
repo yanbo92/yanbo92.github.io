@@ -1,4 +1,4 @@
-baseURL = "https://yanbo92.site/"
+baseURL = "https://yanbo92.github.io/"
 title = "茅测顿开"
 paginate = 5
 theme = "hugo-PaperMod"
@@ -11,7 +11,6 @@ googleAnalytics = "UA-123-45"
 
 [minify]
 disableXML = true
-minifyOutput = true
 
 [params]
 env = "production"
@@ -88,6 +87,10 @@ SiteVerificationTag = "XYZabc"
   threshold = 0.4
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
 
 [[menu.main]]
 identifier = "categories"
