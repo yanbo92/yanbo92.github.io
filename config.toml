@@ -91,7 +91,9 @@ SiteVerificationTag = "XYZabc"
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
-
+[permalinks]
+post = "/:title/"
+  
 [[menu.main]]
 identifier = "categories"
 name = "分类"
