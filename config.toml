@@ -75,10 +75,10 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/yanbo92/yanbo92.github.io/tree/master/content"
-  Text = "修改建议"
+  URL = "https://github.com/<path_to_repo>/content"
+  Text = "Suggest Changes"
   appendFilePath = true
-  
+
   [params.fuseOpts]
   isCaseSensitive = false
   shouldSort = true
@@ -117,4 +117,3 @@ identifier = "github"
 name = "Github"
 url = "https://github.com/yanbo92"
 weight = 40
-
