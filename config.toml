@@ -76,7 +76,7 @@ SiteVerificationTag = "XYZabc"
 
   [params.editPost]
   URL = "https://github.com/<path_to_repo>/content"
-  Text = "Suggest Changes"
+  Text = "修改建议"
   appendFilePath = true
 
   [params.fuseOpts]
