@@ -75,8 +75,8 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/yanbo92/yanbo92.github.io/tree/master/content"
-  Text = "Suggest"
+  URL = "https://github.com/<path_to_repo>/content"
+  Text = "Suggest Changes"
   appendFilePath = true
 
   [params.fuseOpts]
