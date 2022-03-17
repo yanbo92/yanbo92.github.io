@@ -92,7 +92,7 @@ SiteVerificationTag = "XYZabc"
 home = [ "HTML", "RSS", "JSON" ]
 
 [permalinks]
-post = "/:title/"
+post = ":filename/"
   
 [[menu.main]]
 identifier = "categories"
