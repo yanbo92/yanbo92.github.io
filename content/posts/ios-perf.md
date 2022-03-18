@@ -18,7 +18,6 @@ categories:
 
 ## 运行效果
 
-<img src="/images/iOS-perf-1.png" alt="iOS-perf-1" style="zoom:50%;" />
 ![ios-perf](/images/iOS-perf-1.png)
 
 
