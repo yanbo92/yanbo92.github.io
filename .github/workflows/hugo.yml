@@ -17,11 +17,11 @@ jobs:
           hugo-version: '0.94.2'
           extended: true
 
-      - name: Build 
-        run: hugo
+      - name: Build Hugo Site
+        run: hugo --minify --gc
         
 
-      - name: Deploy
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.personal_token }} 
