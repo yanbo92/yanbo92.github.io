@@ -17,7 +17,7 @@ jobs:
           hugo-version: '0.94.2'
           extended: true
 
-      - name: Build Hugo Site
+      - name: Build Hugo
         run: hugo --minify --gc
         
       - name: Push to yanbo92.site
