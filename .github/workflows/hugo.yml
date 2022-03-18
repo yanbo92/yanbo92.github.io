@@ -20,7 +20,16 @@ jobs:
       - name: Build Hugo Site
         run: hugo --minify --gc
         
-
+      - name: Push to yanbo92.site
+        uses: cpina/github-action-push-to-another-repository@v1.3
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.personal_token }}
+        with:
+          source-directory: './public'
+          destination-github-username: 'yanbo92'
+          destination-repository-name: 'yanbo92.site'
+          user-email: yanbo92@139.com
+          
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
