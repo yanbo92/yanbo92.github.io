@@ -61,7 +61,7 @@ tocopen = false
 
 
   [params.cover]
-  hidden = false
+  hidden = true
   hiddenInList = true
   hiddenInSingle = true
 
