@@ -19,6 +19,13 @@ jobs:
 
       - name: Build 
         run: hugo
+        
+      - name: checkout public repo
+        uses: actions/checkout@v2
+        with:
+          repository: yanbo92/yanbo92.site
+          path: public
+          token: ${{ secrets.personal_token }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
