@@ -31,8 +31,8 @@ disableScrollToTop = false
 comments = false
 hidemeta = false
 hideSummary = false
-showtoc = false
-tocopen = false
+showtoc = true
+tocopen = true
 
   [params.label]
   text = "首页"
