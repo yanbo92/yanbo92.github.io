@@ -56,20 +56,12 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "茅测顿开 🛖"
+  Title = "茅测顿开 \U0001f6d6"
   Content = "这里住着一位测试开发工程师"
 
-[params.analytics.google]
-SiteVerificationTag = "XYZabc"
-
-[params.analytics.bing]
-SiteVerificationTag = "XYZabc"
-
-[params.analytics.yandex]
-SiteVerificationTag = "XYZabc"
 
   [params.cover]
-  hidden = true
+  hidden = false
   hiddenInList = true
   hiddenInSingle = true
 
