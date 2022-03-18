@@ -16,8 +16,6 @@ tags:
 - 游戏
 categories:
 - iOS
-weight: 1
-hiddenFromHomePage: false
 
 ---
 
