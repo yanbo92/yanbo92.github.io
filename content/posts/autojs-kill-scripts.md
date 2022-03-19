@@ -1,6 +1,6 @@
 ---
 title:  Auto.JS中杀死其他脚本的方法
-date: 2021-10-28 23:43
+date: 2021-10-28
 tags:
 - auto.js
 - android
