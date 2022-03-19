@@ -16,6 +16,7 @@ weight: 1
 cover:
     image: "iOS-perf-1.png"
     relative: true 
+    responsiveImages: false
 ---
 
 

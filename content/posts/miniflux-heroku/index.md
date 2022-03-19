@@ -12,6 +12,7 @@ categories:
 cover:
     image: "the_power_of_rss.png"
     relative: true 
+    responsiveImages: false
 ---
 
 ## 何为RSS

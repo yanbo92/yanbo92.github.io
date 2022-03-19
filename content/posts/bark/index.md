@@ -12,6 +12,7 @@ categories:
 cover:
     image: "bark-cp-btn.png"
     relative: true 
+    responsiveImages: false
 ---
 
 
