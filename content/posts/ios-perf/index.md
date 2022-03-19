@@ -15,7 +15,7 @@ categories:
 weight: 1
 cover:
     image: "iOS-perf-1.png"
-    relative: true # To use relative path for cover image, used in hugo Page-bundles
+    relative: true 
 ---
 
 

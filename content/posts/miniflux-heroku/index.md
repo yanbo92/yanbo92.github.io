@@ -9,6 +9,9 @@ tags:
 - self-host
 categories: 
 - 建站
+cover:
+    image: "the_power_of_rss.png"
+    relative: true 
 ---
 
 ## 何为RSS
