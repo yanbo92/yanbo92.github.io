@@ -1,6 +1,6 @@
 ---
 title: 调用接口推送消息到你iPhone——iOS开源项目Bark
-date: 2021-10-31 21:55
+date: 2021-10-31
 tags:
 - github
 - bark
