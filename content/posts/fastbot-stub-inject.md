@@ -1,6 +1,6 @@
 ---
 title: 使用yololib注入fastbot-stub并重签名运行测试
-date: 2021-11-11 22:53
+date: 2021-11-11
 tags:
 - github
 - yololib

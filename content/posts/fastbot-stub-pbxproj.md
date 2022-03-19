@@ -1,6 +1,6 @@
 ---
 title: 使用pbxproj添加fastbot-stub.framework并运行测试
-date: 2021-11-25 1:06
+date: 2021-11-25
 tags:
 - github
 - pbxproj

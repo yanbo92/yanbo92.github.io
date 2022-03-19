@@ -1,6 +1,6 @@
 ---
 title:  通过Extended-Choice-Parameter插件将Jenkins参数选项动态设置为当前连接的iOS/Android手机
-date: 2021-11-1 23:35
+date: 2021-11-1
 tags:
 - jenkins
 - jenkins插件

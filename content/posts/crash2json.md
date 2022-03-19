@@ -1,6 +1,6 @@
 ---
 title: 使用crash2json库将iOS崩溃日志解析成json文件
-date: 2021-12-28 20:21
+date: 2021-12-28
 tags:
 - iOS
 - python

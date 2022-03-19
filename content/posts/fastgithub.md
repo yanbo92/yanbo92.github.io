@@ -1,6 +1,6 @@
 ---
 title: Mac电脑使用FastGithub加速并配置命令行代理、开机自动启动
-date: 2021-10-24 12:26
+date: 2021-10-24
 tags: 
 - github
 - fastgithub

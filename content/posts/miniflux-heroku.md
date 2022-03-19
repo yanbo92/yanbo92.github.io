@@ -1,6 +1,6 @@
 ---
 title: 使用Heroku免费搭建的Miniflux RSS服务
-date: 2022-03-11 17:00
+date: 2022-03-11
 tags:
 - heroku
 - rss

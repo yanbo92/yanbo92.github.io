@@ -1,6 +1,6 @@
 ---
 title: 使用Dockerfile和docker-compose搭建Sonar+PostgreSQL代码扫描服务
-date: 2021-10-24 20:21
+date: 2021-10-24
 tags:
 - docker
 - dockerfile
