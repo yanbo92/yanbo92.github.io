@@ -71,7 +71,7 @@ categories:
 
 1. 打开APP，复制测试URL 
 
-![back-cp](/images/bark-cp.png)
+![back-cp](bark-cp.png)
 
 2. 修改内容，请求这个URL
 ```
@@ -92,7 +92,7 @@ post 请求 参数名也是上面这些
 
 收到推送时下拉推送（或在通知中心左滑查看推送）有一个`复制`按钮，点击即可复制推送内容。
 
-![back-cp-btn](/images/bark-cp-btn.png)
+![back-cp-btn](bark-cp-btn.png)
 
 ```objc
 //将复制“验证码是9527”

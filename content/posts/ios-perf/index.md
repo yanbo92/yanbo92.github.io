@@ -13,13 +13,16 @@ tags:
 categories:
 - iOS
 weight: 1
+cover:
+    image: "iOS-perf-1.png"
+    relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 
 
 ## 运行效果
 
-![ios-perf](/images/iOS-perf-1.png)
+![ios-perf](iOS-perf-1.png)
 
 
 ## 项目介绍

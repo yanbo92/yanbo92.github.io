@@ -72,7 +72,7 @@ categories:
 - 解压后，双击运行Unix可执行文件`fastgithub`，同目录下将会生成cert目录
 - 双击cert目录中的`fastgithub.cer`证书文件，并设置为信任方式为始终信任
 
-![fastgithub-cert](/images/fastgithub-cert.png)
+![fastgithub-cert](fastgithub-cert.png)
 
 
 
@@ -87,7 +87,7 @@ categories:
 
 - 点击右下角应用
 
-![fastgithub-system-proxy](/images/fastgithub-system-proxy.png)
+![fastgithub-system-proxy](fastgithub-system-proxy.png)
 
 
 
@@ -109,5 +109,5 @@ export https_proxy=http://127.0.0.1:38457 http_proxy=http://127.0.0.1:38457
 - 打开设置-用户与群组，选择用户
 - 选择登陆项，点击`+`符号，选择`fastgithub`的Unix可执行文件，并勾选隐藏。
 
-![fastgithub-auto-boot](/images/fastgithub-auto-boot.png)
+![fastgithub-auto-boot](fastgithub-auto-boot.png)
 

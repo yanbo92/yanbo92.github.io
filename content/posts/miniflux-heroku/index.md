@@ -15,7 +15,7 @@ categories:
 
 > RSS（简易信息聚合，也叫Really Simple Syndication、聚合RSS、聚合内容），是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。RSS文件（或称做摘要、网络摘要、或频更新，提供到频道）包含了全文或是节录的文字，再加上发用者所订阅之网摘布数据和授权的元数据。通常在时效性比较强的内容上使用RSS订阅能更快速获取信息，网站提供RSS输出，有利于让用户获取网站内容的最新更新。网络用户可以在客户端借助于支持RSS的聚合工具软件（例如SharpReader、NewzCrawler、FeedDemon），在不打开网站内容页面的情况下阅读支持RSS输出的网站内容。
 
-![the_power_of_rss](/images/the_power_of_rss.png)
+![the_power_of_rss](the_power_of_rss.png)
 
 在信息碎片化严重的今天，内容平台连网页版都想砍掉，强制用户安装APP。拥有一套自己的RSS方案能让你更轻松的获得关注的信息，逃离推荐算法带来的信息茧房。
 
