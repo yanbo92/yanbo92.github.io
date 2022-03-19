@@ -1,6 +1,6 @@
 ---
 title:  Auto.JS中免Root杀死APP的巧妙方法
-date: 2021-10-25 23:35
+date: 2021-10-25
 tags:
 - auto.js
 - android
