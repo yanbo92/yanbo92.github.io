@@ -4,7 +4,7 @@ date: 2021-11-11
 tags:
 - github
 - yololib
-- ios
+- iOS
 - 开源项目
 - resign
 - 重签名
@@ -16,7 +16,7 @@ tags:
 - ios-monkey
 categories:
 - 逆向
-weight: 2
+weight: 1
 ---
 
 

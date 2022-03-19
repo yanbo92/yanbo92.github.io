@@ -4,7 +4,7 @@ date: 2021-11-25
 tags:
 - github
 - pbxproj
-- ios
+- iOS
 - 开源项目
 - fastbot
 - fastbot-stub

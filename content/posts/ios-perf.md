@@ -3,7 +3,7 @@ title: 腾讯性能狗收费之后，我写了一款iOS性能测试工具
 date: 2022-01-06
 tags:
 - github
-- ios
+- iOS
 - 开源项目
 - tidevice
 - iPhone
