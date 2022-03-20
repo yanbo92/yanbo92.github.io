@@ -216,6 +216,11 @@ menu:
           params:
               icon: brand-mail
 
+        - identifier: reddit
+          name: Reddit
+          url: https://www.reddit.com/user/yanbo92/
+          params:
+              icon: brand-reddit
 
 
 related:
