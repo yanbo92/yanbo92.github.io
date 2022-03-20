@@ -1,6 +1,6 @@
 ---
 title: 重签名解决光环助手频繁掉签问题
-date: 2022-2-11
+date: 2022-02-11
 tags:
 - github
 - yololib
@@ -16,7 +16,8 @@ tags:
 - 游戏
 categories:
 - iOS
-
+image: "cover.png"
+url: "halo-ipa"
 ---
 
 

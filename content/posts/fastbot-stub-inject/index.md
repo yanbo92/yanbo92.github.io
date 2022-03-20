@@ -15,8 +15,9 @@ tags:
 - fastbot-stub
 - ios-monkey
 categories:
-- 逆向
-weight: 1
+- Reverse
+image: "cover.png"
+url: "fastbot-stub-inject"
 ---
 
 

@@ -5,7 +5,9 @@ tags:
 - github
 - fastgithub
 categories: 
-- Mac
+- Proxy
+image: "cover.png"
+url: "fastgithub"
 ---
 
 

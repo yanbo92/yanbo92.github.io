@@ -7,6 +7,8 @@ tags:
 - crash
 categories: 
 - iOS
+image: "cover.png"
+url: "crash2json"
 ---
 
 

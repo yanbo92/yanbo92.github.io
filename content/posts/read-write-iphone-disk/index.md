@@ -1,6 +1,6 @@
 ---
 title:  通过ifuse/tidevice库读写iPhone手机硬盘
-date: 2021-11-7
+date: 2021-11-07
 tags:
 - iOS
 - libimobiledevice
@@ -11,6 +11,8 @@ tags:
 - python
 categories:
 - iOS
+image: "cover.png"
+url: "read-write-iphone-disk"
 ---
 
 

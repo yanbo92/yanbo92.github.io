@@ -9,10 +9,8 @@ tags:
 - 消息推送
 categories: 
 - iOS
-cover:
-    image: "bark-cp-btn.png"
-    relative: true 
-    responsiveImages: false
+image: "cover.png"
+url: "bark"
 ---
 
 

@@ -9,6 +9,8 @@ tags:
 - postgreSQL
 categories: 
 - Docker
+image: "cover.png"
+url: "sonar-docker"
 ---
 
 

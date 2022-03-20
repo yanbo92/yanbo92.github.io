@@ -10,6 +10,8 @@ tags:
 - javascript
 categories: 
 - Android
+image: "cover.png"
+url: "autojs-kill-scripts"
 ---
 
 

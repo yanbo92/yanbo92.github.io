@@ -8,11 +8,9 @@ tags:
 - miniflux
 - self-host
 categories: 
-- 建站
-cover:
-    image: "the_power_of_rss.png"
-    relative: true 
-    responsiveImages: false
+- Cloud
+image: "cover.png"
+url: "miniflux-heroku"
 ---
 
 ## 何为RSS

@@ -12,6 +12,8 @@ tags:
 - xcode
 categories:
 - iOS
+image: "cover.png"
+url: "fastbot-stub-pbxproj"
 ---
 
 
