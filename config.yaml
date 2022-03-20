@@ -72,7 +72,7 @@ params:
             adminLabel:
 
         utterances:
-            repo: yanbo92.github.io
+            repo: yanbo92/yanbo92.github.io
             issueTerm: pathname
             label: utterances
 
