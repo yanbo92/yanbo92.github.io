@@ -26,6 +26,14 @@ links:
     description: SonarQube 的iOS代码扫描插件，支持 Objective-C 语言和 Swift 语言，支持导入 SwiftLint、Infer、OCLint、Lizard、Fauxpas 工具的扫描分析结果。
     website: https://github.com/sonar-next/sonar-swift
 
+  - title: taobao-iphone-device
+    description: 该工具能够用于与iOS设备进行通信，支持运行在Mac，Linux，Windows上。
+    website: https://github.com/alibaba/taobao-iphone-device
+
+  - title: airtest
+    description: 网易开源的跨平台UI自动化框架，适用于游戏和App
+    website: https://github.com/AirtestProject/Airtest
+
 comments: false
 ---
 
