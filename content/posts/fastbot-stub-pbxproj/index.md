@@ -27,19 +27,19 @@ Monkey测试一直是一种强度较高，性价比较高的测试手段，但�
 
 ## 相关项目介绍
 
-#### [Fastbot_iOS](https://github.com/bytedance/Fastbot_iOS)
+### [Fastbot_iOS](https://github.com/bytedance/Fastbot_iOS)
 
 > Jenkins是一个开源的、提供友好操作界面的持续集成(CI)工具，起源于Hudson（Hudson是商用的），主要用于持续、自动的构建/测试软件项目、监控外部任务的运行（这个比较抽象，暂且写上，不做解释）。Jenkins用Java语言编写，可在Tomcat等流行的servlet容器中运行，也可独立运行。通常与版本管理工具(SCM)、构建工具结合使用。常用的版本控制工具有SVN、GIT，构建工具有Maven、Ant、Gradle。
 
 
 
-#### [mod-pbxproj](https://github.com/kronenthaler/mod-pbxproj)
+### [mod-pbxproj](https://github.com/kronenthaler/mod-pbxproj)
 
 >这是一个可以通过命令行修改Xcode项目依赖的python模块，便于在不使用界面的情况下增加或者删除库。
 
 
 
-#### [Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)
+### [Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)
 
 >这个项目是一个由30个iOS小项目组成的合集，本文使用的调试app就是项目中的04 ToDo，clone下来打包一个ipa即可。当然也可以换成其他脱了壳或者没上架Appstore的ipa包，我用这个只是因为体积比较小，打包和重签名都比较快。
 
@@ -53,7 +53,7 @@ Monkey测试一直是一种强度较高，性价比较高的测试手段，但�
 
 ## 具体步骤
 
-#### 环境准备
+### 环境准备
 
 此处需要准备好的东西：
 
@@ -65,7 +65,7 @@ Monkey测试一直是一种强度较高，性价比较高的测试手段，但�
 
 
 
-##### Python环境安装pbxproj
+### Python环境安装pbxproj
 
 ```
 sudo pip install pbxproj
@@ -73,7 +73,7 @@ sudo pip install pbxproj
 
 
 
-##### fastbot-stub.framework
+### fastbot-stub.framework
 
 按照`Fastbot-iOS`项目的Readme打开`Fastbot-iOS.xcworkspace`，编译即可，完整命令：
 
@@ -91,7 +91,7 @@ open Fastbot-iOS.xcworkspace
 
 
 
-#### 添加动态库
+### 添加动态库
 
 同样的，我们用上一篇文章的todo项目，编写python文件如下：
 
@@ -113,7 +113,7 @@ project.save()
 
 
 
-#### 构建、打包
+### 构建、打包
 
 若没有导出ipa需求，直接在Xcode中指定手机构建即可。需要导出ipa比较麻烦，建议自行搜索。
 
