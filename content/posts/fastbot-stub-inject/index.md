@@ -46,11 +46,13 @@ Monkey测试一直是一种强度较高，性价比较高的测试手段，但�
 
 #### yololib
 [项目链接](https://github.com/KJCracks/yololib)
->yololib是Kim Jong Cracks（Clutch 砸壳的作者）小组搞出来的一个dylib注入工具，利用这个工具，大大方便我们修改Mach-O 文件的 Load Command。以达到注入动态库的目的。用法如下
->
->```
+>yololib是Kim Jong Cracks（Clutch 砸壳的作者）小组搞出来的一个dylib注入工具，利用这个工具，大大方便我们修改Mach-O 文件的 Load Command。以达到注入动态库的目的。
+
+用法如下
+
+```
 yololib [binary] [dylib file]
->```
+```
 
 
 
@@ -178,8 +180,6 @@ cd Payload/ToDo.app && yololib Todo Frameworks/fastbot_stub.framework/fastbot-st
 这一步正常的输出是这样的：
 
 >Reading binary: ToDo
->
->
 >
 >2021-11-11 22:09:37.127 yololib[20629:7615745] Thin 64bit binary!
 >
