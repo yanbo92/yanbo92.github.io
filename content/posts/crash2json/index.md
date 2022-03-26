@@ -25,7 +25,7 @@ url: "crash2json"
 
 
 
-#### 安装crash2json
+### 安装crash2json
 
 ```shell
 pip install crash2json
@@ -35,7 +35,7 @@ pip install crash2json
 
 
 
-#### 命令行直接运行
+### 命令行直接运行
 
 ```shell
 crash2json yourcrashreport.crash
@@ -45,7 +45,7 @@ crash2json yourcrashreport.crash
 
 
 
-#### 其他参数
+### 其他参数
 
 ```dockerfile
 positional arguments:
