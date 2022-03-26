@@ -31,7 +31,8 @@ Monkey测试一直是一种强度较高，性价比较高的测试手段，但�
 
 ## 相关项目介绍
 
-#### [Fastbot_iOS](https://github.com/bytedance/Fastbot_iOS)
+### Fastbot_iOS
+[项目链接](https://github.com/bytedance/Fastbot_iOS)
 
 > 2019 年字节跳动 Quality Lab 在自动测试生成方面进行了比较深入的探索，并研发了针对 Android、iOS 的稳定性测试工具 Fastbot。Fastbot 的核心技术主要包括：
 >
@@ -43,8 +44,8 @@ Monkey测试一直是一种强度较高，性价比较高的测试手段，但�
 >精准定向：根据代码调用链变更自动生成针对变更场景的定向测试。
 
 
-#### [yololib](https://github.com/KJCracks/yololib)
-
+#### yololib
+[项目链接](https://github.com/KJCracks/yololib)
 >yololib是Kim Jong Cracks（Clutch 砸壳的作者）小组搞出来的一个dylib注入工具，利用这个工具，大大方便我们修改Mach-O 文件的 Load Command。以达到注入动态库的目的。用法如下
 >
 >```
@@ -53,14 +54,15 @@ yololib [binary] [dylib file]
 
 
 
-#### [LTResign](https://github.com/gltwy/LTResign)
+#### LTResign
+[项目链接](https://github.com/gltwy/LTResign)
 
 >LTResign是一个用Python编写的重签名工具，这是iOS逆向绕不开的东西，但同类脚本有很多，作者通常用这个以及[GQResign](https://github.com/g763007297/GQResign)。
 
 
 
-#### [Swift-30-Projects](https://github.com/soapyigu/Swift-30-Projects)
-
+#### Swift-30-Projects
+[项目链接](https://github.com/soapyigu/Swift-30-Projects)
 >这个项目是一个由30个iOS小项目组成的合集，本文使用的调试app就是项目中的04 ToDo，clone下来打包一个ipa即可。当然也可以换成其他脱了壳或者没上架Appstore的ipa包，我用这个只是因为体积比较小，打包和重签名都比较快。
 
 
@@ -147,7 +149,7 @@ open Fastbot-iOS.xcworkspace
 
 
 
-#### 动态库注入
+### 动态库注入
 
 将ipa包改名为zip包，其实下面这些步骤都可以在界面操作，看个人习惯
 
@@ -217,7 +219,7 @@ mv Payload.zip Payload.ipa
 
 
 
-#### 重签名
+### 重签名
 
 进到LTResign项目目录
 
@@ -261,7 +263,7 @@ ltresign -s /Payload.ipa -d 24D0F12312312312312312312312300E2CC990355 -m embedde
 
 
 
-#### 装包测试
+### 装包测试
 
 ```
 ideviceinstaller -i glt_output.ipa
