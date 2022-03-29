@@ -72,5 +72,3 @@ footer:
     designedBy:
         other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
     
-    icp:
-        other: {{ .ICP }}
