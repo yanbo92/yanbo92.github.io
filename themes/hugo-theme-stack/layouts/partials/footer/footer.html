@@ -6,6 +6,9 @@
             {{ .Site.Params.footer.since }} - 
         {{ end }}
         {{ now.Format "2006" }} {{ .Site.Title }}
+        
+        {{- $ICP := `<a href="https://beian.miit.gov.cn" target="_blank" rel="noopener">粤ICP备2021169072号</a>` -}}
+        {{ T "footer.icp" $ICP | safeHTML  }}
     </section>
     
     <section class="powerby">
