@@ -70,5 +70,9 @@ footer:
         other: Built with {{ .Generator }}
 
     designedBy:
-        other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+        other: Theme {{ .Theme }} designed by {{ .DesignedBy }} 
+
+    icp:
+        other: 备案:{{ .Icp }} 
+
     
