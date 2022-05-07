@@ -12,7 +12,7 @@ tags:
 - 文档
 - 索引
 categories:
-- Programming
+- iOS
 image: "cover.png"
 url: "learn-golang"
 ---
