@@ -5,7 +5,7 @@ tags:
 - github
 - fastgithub
 categories: 
-- Proxy
+- OpenSource
 image: "cover.png"
 url: "fastgithub"
 ---

@@ -11,7 +11,7 @@ tags:
 - ios-monkey
 - xcode
 categories:
-- iOS
+- Mobile
 image: "cover.png"
 url: "fastbot-stub-pbxproj"
 ---

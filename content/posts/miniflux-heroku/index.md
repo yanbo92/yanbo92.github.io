@@ -8,7 +8,7 @@ tags:
 - miniflux
 - self-host
 categories: 
-- Cloud
+- OpenSource
 image: "cover.png"
 url: "miniflux-heroku"
 ---

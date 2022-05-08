@@ -15,7 +15,7 @@ tags:
 - 破解
 - 游戏
 categories:
-- iOS
+- Reverse
 image: "cover.png"
 url: "halo-ipa"
 ---

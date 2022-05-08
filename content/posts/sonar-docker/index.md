@@ -8,7 +8,7 @@ tags:
 - sonar
 - postgreSQL
 categories: 
-- Docker
+- OpenSource
 image: "cover.png"
 url: "sonar-docker"
 ---

@@ -12,7 +12,7 @@ tags:
 - CI/CD
 - groovy
 categories:
-- Jenkins
+- Tool
 image: "cover.png"
 url: "jenkins-extended-choice-parameter"
 ---

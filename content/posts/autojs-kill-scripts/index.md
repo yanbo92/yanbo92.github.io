@@ -9,7 +9,7 @@ tags:
 - 测试开发
 - javascript
 categories: 
-- Android
+- Mobile
 image: "cover.png"
 url: "autojs-kill-scripts"
 ---

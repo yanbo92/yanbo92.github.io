@@ -10,7 +10,7 @@ tags:
 - macfuse
 - python
 categories:
-- iOS
+- Mobile
 image: "cover.png"
 url: "read-write-iphone-disk"
 ---

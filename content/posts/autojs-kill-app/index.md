@@ -7,7 +7,7 @@ tags:
 - 自动化
 - UI自动化
 categories: 
-- Android
+- Mobile
 image: "cover.png"
 url: "autojs-kill-app"
 ---

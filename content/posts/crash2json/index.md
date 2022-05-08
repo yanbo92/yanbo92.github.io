@@ -6,7 +6,7 @@ tags:
 - python
 - crash
 categories: 
-- iOS
+- OpenSource
 image: "cover.png"
 url: "crash2json"
 ---

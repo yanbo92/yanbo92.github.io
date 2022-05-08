@@ -11,7 +11,7 @@ tags:
 - grafana
 - mysql
 categories:
-- iOS
+- OpenSource
 weight: 1
 image: "iOS-perf-1.png"
 url: "ios-perf"
