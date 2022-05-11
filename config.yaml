@@ -171,7 +171,7 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: dark
 
     imageProcessing:
         cover:
@@ -215,12 +215,6 @@ menu:
           url: mailto:yanbo92@139.com
           params:
               icon: brand-mail
-
-        - identifier: reddit
-          name: Reddit
-          url: https://www.reddit.com/user/yanbo92/
-          params:
-              icon: brand-reddit
 
 
 related:
