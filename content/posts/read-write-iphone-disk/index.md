@@ -149,13 +149,13 @@ url: "read-write-iphone-disk"
 
 首先新建一个mount_point目录用于挂载手机硬盘：
 
-```
+```shell
 mkdir mount_point
 ```
 
 然后用默认参数挂载，这样将会挂载整个`Media`目录，可以拿到`DCIM`以及`Downloads`之类的目录内容：
 
-```
+```shell
 MacBook-Pro ~ % ifuse -u c6b0ab4fa8867c51cf1c5b6d8cd076d3957192b2 mount_point
 MacBook-Pro ~ % ls mount_point
 AirFair		MediaAnalysis	Purchases	afk(1).zip	rd
@@ -168,19 +168,19 @@ Downloads	PublicStaging	afk		iTunes_Control
 
 卸载掉：
 
-```
+```shell
 umount mount_point
 ```
 
 还有另一种更强力的卸载，毕竟这个库经常会卸载不掉：
 
-```
+```shell
 diskutil unmount force mount_point
 ```
 
 再试试指定APP包名的挂载方式，此处用的是Alook浏览器`com.ld.TakeBrowser`：
 
-```
+```shell
 MacBook-Pro ~ % ifuse --documents com.ld.TakeBrowser -u c6b0ab4fa8867c51cf1c5b6d8cd076d3957192b2 mount_point
 MacBook-Pro ~ % ls mount_point
 Audios		Images		Videos

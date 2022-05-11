@@ -88,7 +88,7 @@ comment: true
 
 命令行运行
 
-```
+```shell
 docker -v && docker-compose -v
 ```
 
@@ -100,7 +100,7 @@ docker -v && docker-compose -v
 
 拉取镜像并启动服务：
 
-```
+```shell
 docker-compose up -d  
 ```
 **提示：初次打开`Grafana`时，系统会提示你修改密码，为了方便建议不修改，即保持账号密码均为`admin`，否则在python运行指令中将要进行对应的传参。**
@@ -111,7 +111,7 @@ docker-compose up -d
 
 命令行执行
 
-```
+```shell
 pip install -r requirements.txt
 ```
 

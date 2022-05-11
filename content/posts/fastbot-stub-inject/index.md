@@ -50,7 +50,7 @@ Monkey测试一直是一种强度较高，性价比较高的测试手段，但�
 
 用法如下
 
-```
+```shell
 yololib [binary] [dylib file]
 ```
 
@@ -101,7 +101,7 @@ yololib [binary] [dylib file]
 
 ##### yololib可执行文件
 
-```
+```shell
 git clone https://github.com/KJCracks/yololib
 
 cd yololib && open yololib.xcodeproj
@@ -109,7 +109,7 @@ cd yololib && open yololib.xcodeproj
 
 直接build即可，给构建产物可执行权限
 
-```
+```shell
 chmod +x yololib
 ```
 
@@ -125,7 +125,7 @@ chmod +x yololib
 
 作者打包好了，可以直接下载，改权限
 
-```
+```shell
 git clone https://github.com/gltwy/LTResign
 
 cd LTResign && chmod +x LTResign
@@ -137,7 +137,7 @@ cd LTResign && chmod +x LTResign
 
 按照`Fastbot-iOS`项目的Readme打开`Fastbot-iOS.xcworkspace`，编译即可，完整命令：
 
-```
+```shell
 git clone git@github.com:bytedance/Fastbot_iOS.git
 
 cd Fastbot-iOS && pod install --repo-update
@@ -155,25 +155,25 @@ open Fastbot-iOS.xcworkspace
 
 将ipa包改名为zip包，其实下面这些步骤都可以在界面操作，看个人习惯
 
-```
+```shell
 cp ToDo.ipa ToDo.zip
 ```
 
 解压zip，得到Payload文件夹
 
-```
+```shell
 unzip ToDo.zip
 ```
 
 将`fastbot-stub.framework`复制到Payload/Todo.app/Frameworks中
 
-```
+```shell
 cp -r fastbot_stub.framework  Payload/ToDo.app/Frameworks
 ```
 
 运行yololib注入
 
-```
+```shell
 cd Payload/ToDo.app && yololib Todo Frameworks/fastbot_stub.framework/fastbot-stub
 ```
 
@@ -205,13 +205,13 @@ cd Payload/ToDo.app && yololib Todo Frameworks/fastbot_stub.framework/fastbot-st
 
 重新把`Payload`打包为zip
 
-```
+```shell
 cd ../.. && zip -r Payload.zip Payload
 ```
 
 改名ipa
 
-```
+```shell
 mv Payload.zip Payload.ipa
 ```
 
@@ -223,13 +223,13 @@ mv Payload.zip Payload.ipa
 
 进到LTResign项目目录
 
-```
+```shell
 mv Payload.ipa LTResign && cd LTResign
 ```
 
 用`-l`参数运行`ltresign`获取证书id
 
-```
+```shell
 ./ltresign -l
 ```
 
@@ -245,7 +245,7 @@ mv Payload.ipa LTResign && cd LTResign
 
 运行重签名脚本
 
-```
+```shell
 ltresign -s /Payload.ipa -d 24D0F12312312312312312312312300E2CC990355 -m embedded.mobileprovision
 ```
 
@@ -265,13 +265,13 @@ ltresign -s /Payload.ipa -d 24D0F12312312312312312312312300E2CC990355 -m embedde
 
 ### 装包测试
 
-```
+```shell
 ideviceinstaller -i glt_output.ipa
 ```
 
 回到Fastbot-iOS工程，修改Fastbot-Runner的Scheme：
 
-```
+```shell
 dataport为9797
 launchenv为stubPort=9797
 ```
@@ -299,13 +299,13 @@ launchenv为stubPort=9797
 
 像之前运行Fastbot-iOS一样在命令行传参运行
 
-```
+```shell
 BUNDLEID=yigu.com.ToDo duration=240 throttle=300 xcodebuild test  -workspace Fastbot-iOS.xcworkspace -scheme FastbotRunner  -configuration Release  -destination 'platform=iOS,id=c6b0ab4fa8867c51cf1c5b6d8cd076d3957192b2' -only-testing:FastbotRunner/FastbotRunner/testFastbot
 ```
 
 截取一段命令行输出：
 
-```
+```shell
 [fastbot] : visit ToDo.InputViewController,UIApplicationRotationFollowingController,UIApplicationRotationFollowingControllerNoTouches,UICompatibilityInputViewController,UIInputViewController,UIInputWindowController; visited ViewController count is: 2 
 [fastbot] : state visited: 30 
 [fastbot] : action first visited, get reward 2.336364

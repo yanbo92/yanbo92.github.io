@@ -70,7 +70,7 @@ Monkey测试一直是一种强度较高，性价比较高的测试手段，但�
 
 ### Python环境安装pbxproj
 
-```
+```shell
 sudo pip install pbxproj
 ```
 
@@ -80,7 +80,7 @@ sudo pip install pbxproj
 
 按照`Fastbot-iOS`项目的Readme打开`Fastbot-iOS.xcworkspace`，编译即可，完整命令：
 
-```
+```shell
 git clone git@github.com:bytedance/Fastbot_iOS.git
 
 cd Fastbot-iOS && pod install --repo-update
@@ -154,13 +154,13 @@ launchenv为stubPort=9797
 
 像之前运行Fastbot-iOS一样在命令行传参运行
 
-```
+```shell
 BUNDLEID=yigu.com.ToDo duration=240 throttle=300 xcodebuild test  -workspace Fastbot-iOS.xcworkspace -scheme FastbotRunner  -configuration Release  -destination 'platform=iOS,id=c6b0ab4fa8867c51cf1c5b6d8cd076d3957192b2' -only-testing:FastbotRunner/FastbotRunner/testFastbot
 ```
 
 截取一段命令行输出：
 
-```
+```shell
 [fastbot] : visit ToDo.InputViewController,UIApplicationRotationFollowingController,UIApplicationRotationFollowingControllerNoTouches,UICompatibilityInputViewController,UIInputViewController,UIInputWindowController; visited ViewController count is: 2 
 [fastbot] : state visited: 30 
 [fastbot] : action first visited, get reward 2.336364
