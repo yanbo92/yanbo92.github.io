@@ -340,13 +340,14 @@
             .lntable{
                 margin-left: 5%;
             }
-
+            .line{
+                margin-left: 5%;
+            }
         }
-
+        
         position: relative;
         overflow: hidden;
         border-radius: 5px;
-        box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);
         margin: 35px 0;
         ::-webkit-scrollbar {
           height: 10px;
