@@ -331,6 +331,10 @@
                 opacity: 1;
             }
         }
+        
+        [dir="rtl"] & {
+            direction: ltr;
+            
         position: relative;
         overflow: hidden;
         border-radius: 5px;
