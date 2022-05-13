@@ -332,9 +332,11 @@
             }
         }
         
+        // keep Codeblocks LTR
         [dir="rtl"] & {
             direction: ltr;
-            
+        }
+        
         position: relative;
         overflow: hidden;
         border-radius: 5px;
