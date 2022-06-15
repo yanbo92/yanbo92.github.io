@@ -15,8 +15,8 @@ menu:
       icon: user
 ---
 
-- 编程：Python/Java
-- 技能：UI自动化 / 持续集成 / 性能测试
+- 编程：Python/Golang
+- 技能：自动化 / 持续集成 / 性能测试
 - 爱好：排球 / 游戏 / 手工
 - 游戏：Pixel / Idle / ARPG 
 
