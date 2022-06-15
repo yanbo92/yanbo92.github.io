@@ -46,7 +46,7 @@ params:
 
     sidebar:
         emoji: 🤓
-        subtitle: 这里住着养3只猫的测试开发工程师
+        subtitle: 这里住着测试开发工程师和猫
         avatar:
             enabled: true
             local: true
