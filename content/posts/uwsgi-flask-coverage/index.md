@@ -17,13 +17,11 @@ image: "cover.png"
 url: "uwsgi-flask-coverage"
 ---
 
->`Coverage.py`是一款常用的`Python`程序的覆盖率统计工具，他的基础用法为
->
->```
->coverage run main.py
->```
->
->但生产环境中的`Python`程序很多都不会直接运行`python`文件，而是通过`uWSGI`等技术实现服务托管，需要使用`uWSGI`的配置文件启动。这样就无法直接使用`coverage run`了，本文提供一种通过改造`Flask`入口文件来实现`uWSGI + Flask`代码覆盖率采集的方式。
+`Coverage.py`是一款常用的`Python`程序的覆盖率统计工具，他的基础用法为
+```
+coverage run main.py
+```
+但生产环境中的`Python`程序很多都不会直接运行`python`文件，而是通过`uWSGI`等技术实现服务托管，需要使用`uWSGI`的配置文件启动。这样就无法直接使用`coverage run`了，本文提供一种通过改造`Flask`入口文件来实现`uWSGI + Flask`代码覆盖率采集的方式。
 
 
 
@@ -149,6 +147,7 @@ def collect_coverage():
     # 捕获中断信号之后执行的函数
     print("cov stop")
     cov.stop()
+    cov.save()
     cov.combine()
     cov.xml_report(outfile='report.xml')
     cov.html_report(directory='report')
