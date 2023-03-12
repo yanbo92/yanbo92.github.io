@@ -13,7 +13,7 @@ tags:
 categories:
 - OpenSource
 weight: 1
-image: "iOS-perf-1.png"
+image: "ios-perf-cover.png"
 url: "ios-perf"
 comment: true
 ---
