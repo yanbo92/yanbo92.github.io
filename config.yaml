@@ -27,7 +27,7 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: false
 
 permalinks:
-    posts = /:section
+    posts: "/:section"
 
 params:
     mainSections:
