@@ -13,7 +13,6 @@ menu:
 
 有任何问题、建议或合作意向，欢迎通过以下方式联系站长：
 
-- **邮箱**：business@mail.yanbo92.site
 - **GitHub**：[yanbo92](https://github.com/yanbo92)
 
 一般会在几天内回复。
